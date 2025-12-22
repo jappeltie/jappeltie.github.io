@@ -46,19 +46,17 @@
 
 .global-nav {
     display: grid;
-    grid-template-columns: 2em 1fr 2em;
-    grid-template-rows: 2em;
-    grid-template-areas: "hamburger logo .";
+    grid-template-columns: 1fr 2em;
+    grid-template-rows: 5em;
+    grid-template-areas:  "logo logo "
+                             "links links";
 }
 
-.global-nav__hamburger-button {
-    grid-area: hamburger;
-}
 
 .global-nav__logo {
     grid-area: logo;
     position: relative;
-    justify-self: center;
+
     height: 65px;
     width: 180px;
 }
@@ -66,6 +64,8 @@
 .global-nav__links {
     grid-area: links;
     display: block;
+    justify-self: start;
+
 }
 
 @media (width >=600px) {
@@ -74,12 +74,8 @@
         grid-template-areas: "logo links";
     }
 
-    .global-nav__links {
-        display: block;
-    }
-
-    .global-nav__hamburger-button {
-        display: none;
+    .global-nav__links{
+        justify-self: center;
     }
 
     .global-nav__logo {
