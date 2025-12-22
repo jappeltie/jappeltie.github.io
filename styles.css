@@ -65,7 +65,7 @@
 
 .global-nav__links {
     grid-area: links;
-    display: none;
+    display: block;
 }
 
 @media (width >=600px) {
