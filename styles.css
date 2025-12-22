@@ -46,10 +46,10 @@
 
 .global-nav {
     display: grid;
-    grid-template-columns: 1fr 2em;
+    grid-template-columns: 1fr 1fr auto;
     grid-template-rows: 5em;
-    grid-template-areas:  "logo logo "
-                             "links links";
+    grid-template-areas:  "logo logo image "
+                             "links links image";
 }
 
 
@@ -68,10 +68,21 @@
 
 }
 
+.global-nav__image{
+    grid-area: image;
+    justify-self: end;
+}
+
+.global-nav__image img{
+    border-radius: 10px;
+    height: 85px;
+    width: auto;
+}
+
 @media (width >=600px) {
     .global-nav {
-        grid-template-columns: min-content 1fr;
-        grid-template-areas: "logo links";
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-areas: "logo image links";
     }
 
     .global-nav__links{
