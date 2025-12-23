@@ -538,6 +538,12 @@ img {
     margin-bottom: 0;
 }
 
+.about-story__heading,
+.about-story__image,
+.about-story__text {
+    justify-self: center;
+}
+
 @media (width >= 680px){
     .name-grid {
         padding: 0.5em;

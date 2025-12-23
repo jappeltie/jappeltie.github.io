@@ -1,0 +1,205 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#e8f4f8"/>
+  
+  <!-- Ground -->
+  <rect y="400" width="800" height="200" fill="#c8d8c0"/>
+  
+  <!-- Back row - Adults -->
+  
+  <!-- Person 1: Vrouw met blonde halflange haar (achterste rij links) -->
+  <g transform="translate(120, 180)">
+    <!-- Body -->
+    <rect x="-30" y="80" width="60" height="100" fill="#2c3e50" rx="5"/>
+    <!-- Neck -->
+    <rect x="-10" y="60" width="20" height="25" fill="#ffd5b8"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="40" rx="28" ry="35" fill="#ffd5b8"/>
+    <!-- Hair -->
+    <path d="M -28 30 Q -30 10 -20 5 Q -10 0 0 -5 Q 10 0 20 5 Q 30 10 28 30 Q 25 50 20 55 L 15 50 Q 10 45 5 50 L -5 50 Q -10 45 -15 50 L -20 55 Q -25 50 -28 30" fill="#f4e4c1"/>
+    <!-- Eyes -->
+    <circle cx="-10" cy="40" r="3" fill="#6b8e9f"/>
+    <circle cx="10" cy="40" r="3" fill="#6b8e9f"/>
+    <!-- Smile -->
+    <path d="M -12 50 Q 0 56 12 50" stroke="#d4a574" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Person 5: Oudere man met bril en kort grijs haar (achterste rij links naast vrouw 1) -->
+  <g transform="translate(220, 175)">
+    <!-- Body -->
+    <rect x="-30" y="80" width="60" height="100" fill="#b0c4de" rx="5"/>
+    <!-- Neck -->
+    <rect x="-10" y="60" width="20" height="25" fill="#ffd5b8"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="40" rx="28" ry="35" fill="#ffd5b8"/>
+    <!-- Kort grijs haar -->
+    <path d="M -28 35 Q -30 15 -20 8 Q -10 3 0 2 Q 10 3 20 8 Q 30 15 28 35" fill="#d0d0d0"/>
+    <!-- Bril -->
+    <circle cx="-10" cy="40" r="8" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="10" cy="40" r="8" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="-2" y1="40" x2="2" y2="40" stroke="#333" stroke-width="2"/>
+    <!-- Eyes -->
+    <circle cx="-10" cy="40" r="3" fill="#8b7355"/>
+    <circle cx="10" cy="40" r="3" fill="#8b7355"/>
+    <!-- Smile -->
+    <path d="M -12 52 Q 0 57 12 52" stroke="#d4a574" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Person 2: Oudere vrouw met bril en hoed (achterste rij midden-links) -->
+  <g transform="translate(360, 160)">
+    <!-- Body -->
+    <rect x="-30" y="80" width="60" height="100" fill="#ffb3ba" rx="5"/>
+    <!-- Neck -->
+    <rect x="-10" y="60" width="20" height="25" fill="#ffd5b8"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="40" rx="28" ry="35" fill="#ffd5b8"/>
+    <!-- Hair (kort grijs) -->
+    <path d="M -28 35 Q -30 15 -20 8 Q -10 2 0 0 Q 10 2 20 8 Q 30 15 28 35" fill="#d9d9d9"/>
+    <!-- Hoed -->
+    <ellipse cx="0" cy="5" rx="35" ry="8" fill="#cd853f"/>
+    <path d="M -35 5 Q -35 -10 0 -15 Q 35 -10 35 5" fill="#cd853f"/>
+    <!-- Bril -->
+    <circle cx="-10" cy="40" r="8" fill="none" stroke="#333" stroke-width="2"/>
+    <circle cx="10" cy="40" r="8" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="-2" y1="40" x2="2" y2="40" stroke="#333" stroke-width="2"/>
+    <!-- Eyes -->
+    <circle cx="-10" cy="40" r="3" fill="#8b7355"/>
+    <circle cx="10" cy="40" r="3" fill="#8b7355"/>
+    <!-- Smile -->
+    <path d="M -12 52 Q 0 58 12 52" stroke="#d4a574" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Person 6: Oudere man met bril en gestreept shirt (achterste rij naast vrouw 2) -->
+  <g transform="translate(460, 165)">
+    <!-- Body met strepen -->
+    <rect x="-32" y="80" width="64" height="105" fill="#2c3e50" rx="5"/>
+    <rect x="-32" y="95" width="64" height="15" fill="#d4915d"/>
+    <rect x="-32" y="125" width="64" height="15" fill="#c8d8e4"/>
+    <rect x="-32" y="155" width="64" height="15" fill="#d4915d"/>
+    <!-- Neck -->
+    <rect x="-12" y="60" width="24" height="25" fill="#ffd5b8"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="38" rx="30" ry="36" fill="#ffd5b8"/>
+    <!-- Kort grijs haar -->
+    <path d="M -30 32 Q -32 12 -22 6 Q -12 1 0 0 Q 12 1 22 6 Q 32 12 30 32" fill="#c8c8c8"/>
+    <!-- Bril (rechthoekig) -->
+    <rect x="-18" y="33" width="15" height="11" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+    <rect x="3" y="33" width="15" height="11" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="-3" y1="38" x2="3" y2="38" stroke="#333" stroke-width="2"/>
+    <!-- Eyes -->
+    <circle cx="-11" cy="38" r="3" fill="#6b8e9f"/>
+    <circle cx="11" cy="38" r="3" fill="#6b8e9f"/>
+    <!-- Smile -->
+    <path d="M -12 52 Q 0 57 12 52" stroke="#d4a574" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Person 3: Man met bril en baard (achterste rij midden) -->
+  <g transform="translate(560, 165)">
+    <!-- Body -->
+    <rect x="-35" y="80" width="70" height="105" fill="#7f9da6" rx="5"/>
+    <!-- Neck -->
+    <rect x="-12" y="60" width="24" height="25" fill="#ffd5b8"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="38" rx="30" ry="36" fill="#ffd5b8"/>
+    <!-- Hair (kort donkerblond/grijs) -->
+    <path d="M -30 30 Q -32 10 -22 5 Q -12 0 0 -2 Q 12 0 22 5 Q 32 10 30 30" fill="#b8a68e"/>
+    <!-- Bril -->
+    <rect x="-18" y="32" width="15" height="12" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+    <rect x="3" y="32" width="15" height="12" rx="2" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="-3" y1="38" x2="3" y2="38" stroke="#333" stroke-width="2"/>
+    <!-- Eyes -->
+    <circle cx="-11" cy="38" r="3" fill="#6b8e9f"/>
+    <circle cx="11" cy="38" r="3" fill="#6b8e9f"/>
+    <!-- Baard -->
+    <path d="M -25 50 Q -28 60 -20 68 Q -10 72 0 73 Q 10 72 20 68 Q 28 60 25 50 L 20 48 Q 15 55 10 58 Q 5 60 0 60 Q -5 60 -10 58 Q -15 55 -20 48 Z" fill="#b8a68e"/>
+    <!-- Smile -->
+    <path d="M -10 52 Q 0 57 10 52" stroke="#d4a574" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Person 4: Vrouw met krullend halflang haar (achterste rij rechts) -->
+  <g transform="translate(660, 175)">
+    <!-- Body -->
+    <rect x="-30" y="80" width="60" height="100" fill="#e8dcc8" rx="5"/>
+    <!-- Neck -->
+    <rect x="-10" y="60" width="20" height="25" fill="#ffd5b8"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="40" rx="28" ry="35" fill="#ffd5b8"/>
+    <!-- Krullend haar -->
+    <g fill="#d4a76a">
+      <circle cx="-22" cy="20" r="8"/>
+      <circle cx="-18" cy="10" r="7"/>
+      <circle cx="-10" cy="5" r="8"/>
+      <circle cx="0" cy="3" r="8"/>
+      <circle cx="10" cy="5" r="8"/>
+      <circle cx="18" cy="10" r="7"/>
+      <circle cx="22" cy="20" r="8"/>
+      <circle cx="-24" cy="32" r="7"/>
+      <circle cx="-20" cy="44" r="6"/>
+      <circle cx="20" cy="44" r="6"/>
+      <circle cx="24" cy="32" r="7"/>
+    </g>
+    <!-- Eyes -->
+    <circle cx="-10" cy="42" r="3" fill="#6b8e9f"/>
+    <circle cx="10" cy="42" r="3" fill="#6b8e9f"/>
+    <!-- Smile -->
+    <path d="M -12 52 Q 0 58 12 52" stroke="#d4a574" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Front row - Kinderen -->
+  
+  <!-- Person 7: Jongen met kort blond haar (voorste rij links) -->
+  <g transform="translate(490, 330)">
+    <!-- Body -->
+    <rect x="-25" y="60" width="50" height="80" fill="#4a5568" rx="5"/>
+    <!-- Neck -->
+    <rect x="-8" y="45" width="16" height="18" fill="#ffd5b8"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="30" rx="22" ry="28" fill="#ffd5b8"/>
+    <!-- Haar (kort blond) -->
+    <path d="M -22 22 Q -24 8 -16 3 Q -8 -1 0 -2 Q 8 -1 16 3 Q 24 8 22 22" fill="#f4e4c1"/>
+    <!-- Eyes -->
+    <circle cx="-8" cy="30" r="3" fill="#6b8e9f"/>
+    <circle cx="8" cy="30" r="3" fill="#6b8e9f"/>
+    <!-- Smile -->
+    <path d="M -10 40 Q 0 45 10 40" stroke="#d4a574" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Person 8: Meisje met lang blond haar en paars shirt (voorste rij midden) -->
+  <g transform="translate(560, 335)">
+    <!-- Body -->
+    <rect x="-25" y="60" width="50" height="80" fill="#b19cd9" rx="5"/>
+    <!-- Neck -->
+    <rect x="-8" y="45" width="16" height="18" fill="#ffd5b8"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="30" rx="22" ry="27" fill="#ffd5b8"/>
+    <!-- Lang blond haar -->
+    <path d="M -22 20 Q -24 5 -16 0 Q -8 -3 0 -4 Q 8 -3 16 0 Q 24 5 22 20 Q 22 40 20 55 L 18 65 L -18 65 L -20 55 Q -22 40 -22 20" fill="#f4e4c1"/>
+    <!-- Eyes -->
+    <circle cx="-8" cy="30" r="3" fill="#6b8e9f"/>
+    <circle cx="8" cy="30" r="3" fill="#6b8e9f"/>
+    <!-- Tongue out -->
+    <ellipse cx="0" cy="42" rx="4" ry="6" fill="#ff9999"/>
+    <!-- Smile -->
+    <path d="M -10 38 Q -5 42 0 42 Q 5 42 10 38" stroke="#d4a574" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Person 9: Jongen met kort blond haar (voorste rij rechts) -->
+  <g transform="translate(630, 330)">
+    <!-- Body -->
+    <rect x="-25" y="60" width="50" height="80" fill="#5a8fa8" rx="5"/>
+    <!-- Neck -->
+    <rect x="-8" y="45" width="16" height="18" fill="#ffd5b8"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="30" rx="22" ry="28" fill="#ffd5b8"/>
+    <!-- Haar (kort blond) -->
+    <path d="M -22 22 Q -24 8 -16 3 Q -8 -1 0 -2 Q 8 -1 16 3 Q 24 8 22 22" fill="#f4e4c1"/>
+    <!-- Eyes -->
+    <circle cx="-8" cy="30" r="3" fill="#6b8e9f"/>
+    <circle cx="8" cy="30" r="3" fill="#6b8e9f"/>
+    <!-- Smile -->
+    <path d="M -10 40 Q 0 45 10 40" stroke="#d4a574" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="28" fill="#5a6a7a" text-anchor="middle" font-weight="bold">Familie Portret</text>
+</svg>
