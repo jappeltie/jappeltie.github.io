@@ -665,6 +665,11 @@ img {
     max-width: 150px;
 }
 
+.pizza-grid__image img {
+    cursor: zoom-in;
+}
+
+
 .pizza-grid__description {
     grid-area: description;
 }
@@ -704,4 +709,42 @@ img {
     .pizza-grid__description {
         padding: 0.5em;
     }
+}
+
+/* Overlay */
+
+.pizza-thumb {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.pizza-thumb:hover {
+  transform: scale(1.05);
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay img {
+  width: 95vw;       /* 95% van de viewport width */
+  height: 95vh;      /* 95% van de viewport height */
+  object-fit: contain; /* behoudt verhouding, past in het scherm */
+  border-radius: 8px;
+}
+
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
 }
